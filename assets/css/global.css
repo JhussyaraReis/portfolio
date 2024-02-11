@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.main {
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+}

@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portifólio</title>
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -11,15 +13,28 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h2>Olá, Meu nome é Jhussyara Reis</h2>
-      <img src="./assets/img/img-eu.jpg" alt="img-perfil" />
-      <p>Web Developer</p>
-      <p>Timon-MA</p>
-      <p>(86) 9 9999-9999</p>
-      <p>blabla@gmail.com</p>
-    </header>
+    <div class="main">
+      <header class="header">
+        <img src="./assets/img/eu-seria.jpg" alt="img-perfil" class="photo" />
+        <h2 class="title">
+          Olá, <br />
+          nome é Jhussyara Reis
+        </h2>
+        <div class="information">
+          <p class="job">Web Developer</p>
+          <p class="location">Timon-MA</p>
+          <p class="phone">(86) 9 9999-9999</p>
+          <p class="email">blabla@gmail.com</p>
+        </div>
+      </header>
+    </div>
   </body>
 </html>
