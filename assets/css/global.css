@@ -6,8 +6,44 @@
 }
 
 body {
+  height: 100vh;
   background-color: black;
+  background-repeat: no-repeat;
   color: whitesmoke;
+}
+
+body::before {
+  content: "";
+  display: inline-block;
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    335deg,
+    rgba(0, 0, 0, 0.119) 64%,
+    rgba(9, 121, 58, 1) 83%,
+    rgba(0, 212, 255, 1) 97%
+  );
+}
+
+body::after {
+  content: "";
+  display: inline-block;
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  z-index: -1;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(
+    149deg,
+    rgba(0, 0, 0, 0.119) 64%,
+    rgba(9, 121, 58, 1) 83%,
+    rgba(0, 212, 255, 1) 97%
+  );
 }
 
 .main {
