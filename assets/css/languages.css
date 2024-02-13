@@ -1,0 +1,21 @@
+.languages {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.languages li {
+  padding: 0rem 2rem 2rem 2rem;
+}
+
+.languages li::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url(../img/icons/check.png);
+  background-size: cover;
+  margin-right: 10px;
+  margin-bottom: -1px;
+}
