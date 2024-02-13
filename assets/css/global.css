@@ -48,7 +48,7 @@ body::after {
 
 .main {
   padding: 1rem;
-  margin: 1rem;
+  margin: 1rem auto;
   border: 1px solid white;
   border-radius: 1rem;
 }
@@ -60,4 +60,11 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    max-width: 800px;
+    margin: 1rem auto;
+  }
 }
