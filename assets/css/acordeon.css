@@ -43,6 +43,7 @@
 
 .acordeon .content {
   display: none;
+  padding: 0rem 2rem 2rem 2rem;
 }
 
 .acordeon.open .content {

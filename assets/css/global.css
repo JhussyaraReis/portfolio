@@ -52,3 +52,12 @@ body::after {
   border: 1px solid white;
   border-radius: 1rem;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

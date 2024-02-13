@@ -5,10 +5,6 @@
   list-style: none;
 }
 
-.languages li {
-  padding: 0rem 2rem 2rem 2rem;
-}
-
 .languages li::before {
   content: "";
   display: inline-block;
