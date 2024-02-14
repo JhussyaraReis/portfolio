@@ -8,13 +8,12 @@
 }
 
 .header .photo {
-  width: 200px;
-  height: 200px;
+  width: 220px;
+  height: 250px;
   border-radius: 50%;
 }
 
 .header .title {
-  text-align: center;
   font-family: "Protest Revolution", sans-serif;
 }
 
@@ -48,11 +47,11 @@
 .information .location::before {
   background-image: url("../img/icons/location.png");
 }
-.information .phone::before {
-  background-image: url("../img/icons/phone.png");
+.information .linkedin::before {
+  background-image: url("../img/icons/linkedin.png");
 }
-.information .email::before {
-  background-image: url("../img/icons/email.png");
+.information .instagram::before {
+  background-image: url("../img/icons/instagram.png");
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,7 +65,6 @@
   .header .title {
     grid-area: title;
     text-align: start;
-    max-width: 210px;
   }
 
   .header .information {
