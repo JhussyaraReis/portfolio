@@ -28,22 +28,21 @@
   <body>
     <div class="main">
       <header class="header">
-        <img src="./assets/img/perfil.png" alt="img-perfil" class="photo" />
-        <h1 class="title">Carregando...</h1>
+        <img
+          src="./assets/img/perfil.png"
+          alt="img-perfil"
+          class="photo"
+          id="profile.photo"
+        />
+        <h1 class="title" id="profile.name">Carregando...</h1>
         <div class="information">
-          <p class="job">Carregando...</p>
-          <p class="location">Carregando...</p>
+          <p class="job" id="profile.job">Carregando...</p>
+          <p class="location" id="profile.location">Carregando...</p>
           <p class="linkedin">
-            <a
-              href="https://www.linkedin.com/in/jhussyara-reis-de-oliveira-449965241/"
-              target="_blank"
-              >Carregando...</a
-            >
+            <a href="" target="_blank" id="profile.linkedin">Carregando...</a>
           </p>
           <p class="instagram">
-            <a href="https://instagram.com/JhussyaraReis" target="_blank"
-              >Carregando...</a
-            >
+            <a href="" target="_blank" id="profile.instagram">Carregando...</a>
           </p>
         </div>
       </header>
@@ -57,46 +56,15 @@
           <div class="skills">
             <section class="tools">
               <h3>Ferramentas:</h3>
-              <ul>
-                <li>
-                  <img
-                    src="./assets/img/icons/node.png"
-                    alt="node"
-                    title="node"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="./assets/img/icons/scss.png"
-                    alt="scss"
-                    title="scss"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="./assets/img/icons/mongodb.png"
-                    alt="mongoDb"
-                    title="mongoDb"
-                  />
-                </li>
-                <li>
-                  <img
-                    src="./assets/img/icons/express.png"
-                    alt="express"
-                    title="express"
-                  />
-                </li>
-              </ul>
+              <ul id="profile.skills.hardSkills"></ul>
             </section>
 
             <section class="personal">
               <h3>Habilidades Pessoais:</h3>
-              <ul>
-                <li>Foco em resultados</li>
-                <li>Liderança</li>
-                <li>Organização</li>
-                <li>Trabalho em equipe</li>
-                <li>Flexibilidade</li>
+              <ul id="profile.skills.softSkills">
+                <li>Carregando...</li>
+                <li>Carregando...</li>
+                <li>Carregando...</li>
               </ul>
             </section>
           </div>
@@ -203,5 +171,7 @@
       </section>
     </div>
     <script src="./assets/js/acordeon.js"></script>
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
