@@ -1,0 +1,110 @@
+{
+  "name": "Jhussyara Reis de Oliveira",
+  "photo": "https://avatars.githubusercontent.com/u/147738753?v=4",
+  "job": "Web Developer",
+  "location": "Timon - MA",
+  "linkedin": "https://www.linkedin.com/in/jhussyara-reis-de-oliveira-449965241/",
+  "instagram": "https://instagram.com/JhussyaraReis",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "Nodejs",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/nodejs.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/js.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/css.png"
+      },
+      {
+        "name": "Html",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/html.png"
+      },
+      {
+        "name": "Mongodb",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/mongodb.png"
+      },
+      {
+        "name": "SCSS",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/scss.png"
+      },
+      {
+        "name": "git",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/git.png"
+      },
+      {
+        "name": "github",
+        "logo": "https://raw.githubusercontent.com/JhussyaraReis/portfolio/main/data/img/github.png"
+      }
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe",
+      "Flexibilidade",
+      "Organização"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (intermediário)",
+    "Espanhol (Iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Front End first page - série Ahsoka",
+      "url": "https://github.com/JhussyaraReis/site-Ahsoka",
+      "github": true
+    },
+    {
+      "name": "Jogo da Forca - JavaScript Vanilla",
+      "url": "https://github.com/JhussyaraReis/jogo-da-forca",
+      "github": true
+    },
+    {
+      "name": "Blog com node.js, MongoBD e Handlebars",
+      "url": "https://github.com/JhussyaraReis/blog-app",
+      "github": true
+    },
+    {
+      "name": "Front End Sistema cafeteria",
+      "url": "https://github.com/JhussyaraReis/sistema-cafeteria",
+      "github": true
+    },
+    {
+      "name": "Pokedex JavaScript com PokeAPI",
+      "url": "https://github.com/JhussyaraReis/pokedex",
+      "github": true
+    },
+    {
+      "name": "Front End Site para Academias com vanillatilt.js ",
+      "url": "https://github.com/JhussyaraReis/site-para-academias",
+      "github": true
+    },
+    {
+      "name": "Jogo da Memória Star Wars - JavaScript Vanilla",
+      "url": "https://github.com/JhussyaraReis/jogo-da-memoria",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Byju's Future School - Instrutora de Programação",
+      "period": "2021 - até o momento",
+      "description": "Instruir os alunos na programação de apps ejogos. Ensinando conceitos de lógica deprogramação, sintaxe de linguagens (JS),mecânica e design de jogos."
+    },
+    {
+      "name": "Retcom Sistemas - Analista de Suporte",
+      "period": "2020 - 2021",
+      "description": "Auxiliar o usuário na utilização de sistemas ERP e na resolução de possíveis problemas.Implantação e manutenção de sistemas ERP.Auxilio em Testes de sistema e usuário."
+    },
+    {
+      "name": "Instituto Brasileiro de Geografia e Estatística - Estagiário de Suporte",
+      "period": "2018 - 2019",
+      "description": "Suporte técnico ao usuário na utilização deaplicativos, sistema e computadores. Assimcomo a montagem e manutenção de aparelhosde informática. Controle de acesso por activedirectory."
+    }
+  ]
+}
